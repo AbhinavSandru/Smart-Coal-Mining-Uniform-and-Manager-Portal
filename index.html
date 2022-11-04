@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Employee safety management portal</title>
+	<!-- bootstrap cdn -->
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+	<!-- font awesome cdn -->
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<!-- style.css -->
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<!-- jquery cdn -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+<body>
+    <style>
+        @media (min-width: 768px) {
+  .sticky-nav {
+      position:fixed;
+      top:0;
+      width: 100%;
+      z-index: 99999999;
+  }
+}
+    </style>
+	<div>
+	    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 sticky-nav">
+  <div class="container"><a href="#" class="navbar-brand d-flex align-items-center"> <i class="fas fa-lightbulb	fa-lg text-primary mr-2"></i><strong>Minecrafter's safety management portal</strong></a>
+    <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+    <div id="navbarSupportedContent" class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active"><a href = "#" class="nav-link font-italic"> Home </a></li>
+        <li class="nav-item active"><a  href="#ourteam" class="nav-link font-italic"> Our Team </a></li>
+        <li class="nav-item active"><a href="#service" class="nav-link font-italic"> Services </a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="bg-light">
+  <div class="container py-5">
+    <div class="row h-100 align-items-center py-5">
+      <div class="col-lg-6">
+        <h1 class="display-4">Miners Environment Management </h1>
+        <br><br>
+        <p class="lead text-muted mb-0"> <h2>Problem:</h2>Mining workers are affected by many hazards – from ventilation problems, mine flooding, gas explosions, ceiling collapsing, mine haulage, sudden inrushes and mine inundation, spontaneous combustion, to un-optimized evacuation routes. And mine operators have been working for decades to ensure no fatal accident results in death, injury, or poor health of miners.</p>
+        <p class="lead text-muted mb-0"><h2>Objective:</h2>To give a solution to design smart work clothing that has sensors embedded in it to securely transmit data to managers about hazardous conditions and the workers’ physical conditions, improving safety overall.</p>
+      </div>
+      <div class="col-lg-6 d-none d-lg-block"><img height =250 src="https://contest.techbriefs.com//images/stories/entries/2017/2017_06_29_14_09_31_prototype.jpg" alt="" class="img-fluid"></div>
+    </div>
+  </div>
+</div>
+
+<div class="bg-white py-5">
+  <div class="container py-5"  id = "service">
+    <div class="row align-items-center mb-5">
+      <div class="col-lg-6 order-2 order-lg-1"><i class="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
+        <h2 class="font-weight-light" id = "service">The Managers can view and manage worker's environment condition from here</h2>
+        <p class="font-italic text-muted mb-4">This section can access the environment conditions of  two users working under different conditions</p>
+        
+        <button onclick="javascript:window.open('https://drytadpole.000webhostapp.com/dbselect.php', '_blank');" class="btn btn-outline-info btn-lg" data-mdb-toggle="button" autocomplete="off" aria-pressed="true" >Miner 1</button>
+
+
+<button onclick="javascript:window.open('https://drytadpole.000webhostapp.com/dbselect1.php', '_blank');" class="btn btn-outline-warning btn-lg" data-mdb-toggle="button" autocomplete="off" aria-pressed="true" >Miner 2</button>
+
+
+      </div>
+      <div class="col-lg-5 px-5 mx-auto order-1 order-lg-2"><img src="https://www.mdpi.com/energies/energies-11-00547/article_deploy/html/images/energies-11-00547-g004.png " alt="" class="img-fluid mb-4 mb-lg-0"></div>
+    </div>
+    <div class="row align-items-center">
+      <div class="col-lg-5 px-5 mx-auto"><img height= 300 src="https://www.chinadailyhk.com/attachments/image/166/244/16/584131_272934/584131_272934_800_auto_jpg.jpg"></div>
+      <div class="col-lg-6"><i class="fa fa-leaf fa-2x mb-3 text-primary"></i>
+        <h2 class="font-weight-light"> Worker Environment Data visualization</h2>
+        <p class="font-italic text-muted mb-4"></p>
+        <button onclick="javascript:window.open('https://drytadpole.000webhostapp.com/chart.js/linegraph.html', '_blank');" class="btn btn-info" data-mdb-toggle="button" autocomplete="off" aria-pressed="true" >Miner 1 sensor analytics</button>
+
+
+<button onclick="javascript:window.open('https://drytadpole.000webhostapp.com//chart.js/U2/line1.html', '_blank');" class= "btn btn-warning" data-mdb-toggle="button" autocomplete="off" aria-pressed="true" >Miner2 sensor analytics</button>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bg-light py-5"  id="ourteam">
+  <div class="container py-5">
+    <div class="row mb-4">
+      <div class="col-lg-5">
+        <h2 class="display-4 font-weight-light">Our Creators</h2>
+        <p class="font-italic text-muted">inspiring and hardworking.</p>
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <!-- Team item-->
+      <div class="col-xl-3 col-sm-6 mb-5">
+        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootstrapious.com/i/snippets/sn-about/avatar-3.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+          <h5 class="mb-0">Tanish Rohil</h5><span class="small text-uppercase text-muted">Co-Founder</span>
+          <ul class="social mb-0 list-inline mt-3">
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- End-->
+
+      <!-- Team item-->
+      <div class="col-xl-3 col-sm-6 mb-5">
+        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootstrapious.com/i/snippets/sn-about/avatar-3.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+          <h5 class="mb-0">Vishnu Sathwik</h5><span class="small text-uppercase text-muted">Co-Founder</span>
+          <ul class="social mb-0 list-inline mt-3">
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- End-->
+      
+            <!-- Team item-->
+      <div class="col-xl-3 col-sm-6 mb-5">
+        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootstrapious.com/i/snippets/sn-about/avatar-3.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+          <h5 class="mb-0">Abhinav Sandru</h5><span class="small text-uppercase text-muted">Co-Founder</span>
+          <ul class="social mb-0 list-inline mt-3">
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- End-->
+
+
+    </div>
+  </div>
+</div>
+
+
+<!--<footer class="bg-light pb-5">
+  <div class="container text-center">
+    <p class="font-italic text-muted mb-0">&copy; Copyrights Company.com All rights reserved.</p>
+  </div>
+</footer>-->
+
+	</div>
+
+
+	<!-- scripts -->
+	<!-- bootstrap javascript cdn -->
+	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
